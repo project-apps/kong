@@ -20,7 +20,7 @@ services:
   tags:
   - userapi
 - name: auth-service
-  url: http://localhost:8081/authservice
+  url: http://localhost:8080/authservice
   tags:
   - authapi
 - name: location-service
