@@ -30,7 +30,7 @@ services:
 - name: cm-service
 # url: https://cmservice.eu-gb.mybluemix.net
 # url: http://localhost:3000/cms
-  url: http://35.222.144.226:3000/cms
+  url: http://cmservice.eu-gb.mybluemix.net/cms
   tags:
   - cmsapi
 routes:
