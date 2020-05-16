@@ -24,7 +24,7 @@ services:
   tags:
   - authapi
 - name: location-service
-  url: https://locationservice.eu-gb.mybluemix.net
+  url: http://locationservice.eu-gb.mybluemix.net
   tags:
   - locationapi
 - name: cm-service
