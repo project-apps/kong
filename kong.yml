@@ -24,13 +24,13 @@ services:
   tags:
   - authapi
 - name: location-service
-  url: https://locationservice.eu-gb.mybluemix.net/db
+  url: https://locationservice.eu-gb.mybluemix.net
   tags:
   - locationapi
 - name: cm-service
 # url: https://cmservice.eu-gb.mybluemix.net
 # url: http://localhost:3000/cms
-  url: http://cmservice.eu-gb.mybluemix.net/cms
+  url: http://cmservice.eu-gb.mybluemix.net
   tags:
   - cmsapi
 routes:
