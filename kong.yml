@@ -28,9 +28,7 @@ services:
   tags:
   - locationapi
 - name: cm-service
-# url: https://cmservice.eu-gb.mybluemix.net
-# url: http://localhost:3000/cms
-  url: http://cmservice.eu-gb.mybluemix.net
+  url: http://cms-deepdivecode.eu-gb.mybluemix.net
   tags:
   - cmsapi
 routes:
